@@ -1,1 +1,64 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 1100px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imageContainer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.imageContainer img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+
+.col-small {
+    width: 200px;
+}
+
+.col-large {
+    width: 600px;
+}
+
+td img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+}
